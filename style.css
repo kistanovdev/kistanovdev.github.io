@@ -381,7 +381,6 @@ sub {
     width: 50px;
     height: 24px;
     border-radius: 12px;
-    background-image: url("/i/dark_mode.png");
     background-size: 76px 24px;
     background-position: -26px 0;
     transition: 100ms;
