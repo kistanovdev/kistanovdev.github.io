@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<ul class=menu>
+  <li><a class="menu__item menu__item_inside" href="/">Blog</a></li>
+  <li><a class="menu__item" href="/til/">TIL</a></li>
+  <li><a class="menu__item" href="/projects/">Projects</a></li>
+  <li><a class="menu__item" href="https://wiki.kistanov.dev">Wiki</a></li>
+</ul>
+
+
+<article class="post">
+  <h1 class="title">{{ page.title }}</h1>
+
+  <p>{{ page.permalink }}</p>
+
+  {{ content }}
+
+  <p class=footer>
+    <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+    {% if page.related_url and page.related_title %}
+      <span class="separator">·</span>
+      <span>Related</span>
+      <a href="{{ page.related_url }}">{{ page.related_title }}</a>
+    {% endif %}
+
+    {% if page.hackernews_id or page.hackernews_id_2 or page.reddit_url or page.reddit_url_2 %}
+      <span class="separator">·</span>
+      <span>Discuss on</span>
+      {% if page.hackernews_id %}
+        <a href="https://news.ycombinator.com/item?id={{ page.hackernews_id }}" target="_blank">HackerNews</a>
+      {% endif %}
+      {% if page.hackernews_id_2 %}
+        <a href="https://news.ycombinator.com/item?id={{ page.hackernews_id_2 }}" target="_blank">More HackerNews</a>
+      {% endif %}
+      {% if page.reddit_url %}
+        <a href="{{ page.reddit_url }}" target="_blank">Reddit</a>
+      {% endif %}
+      {% if page.reddit_url_2 %}
+        <a href="{{ page.reddit_url_2 }}" target="_blank">More Reddit</a>
+      {% endif %}
+    {% endif %}
+  </p>
+
+  <script>
+    document.querySelectorAll(".hoverable").forEach(function (e) {
+        e.onclick = function() { e.classList.toggle("clicked"); }
+    });
+  </script>
+
+  {% if page.hide_about %}  
+  {% else %}
+  <div class="about">
+    <div class="about_photo"></div>
+    <div class="about_inner">
+      <p>Hi!</p>
+      <p>I'm Daniil Kistanov. I am CSU Sacramento graduate, currently working as a DevOps Engineer at Apple.</p>
+    </div>
+  </div>
+  {% endif %}
+
+</article>

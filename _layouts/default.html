@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+  {% if page.class == "page_wide" %}
+    <meta name="viewport" content="width=900" />
+  {% else %}
+    <meta name="viewport" content="width=640" />
+  {% endif %}
+  <meta name="theme-color" content="hsl(51, 100%, 59%)">
+  <link href="/i/favicon.png" rel="icon" sizes="32x32">
+
+  <link href='/style.css?v=20201203' rel='stylesheet' type='text/css' />
+  <title>{{ page.title }} @ kistanov.dev</title>
+
+  <link href="/blog/atom.xml" rel="alternate" title="Daniil Kistanov’s blog" type="application/atom+xml" />
+  <link href="/i/favicon.png" rel="icon" sizes="32x32">
+
+  <meta name="author" content="Daniil Kistanov" />
+  
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:url" content="https://kistanov.dev{{ page.url }}" />
+  {% if page.categories contains 'blog' %}
+    <meta property="og:type" content="article" />
+
+    <meta property="article:published_time" content='{{ page.date | date: "%Y-%m-%d" }}' />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+  {% endif %}
+
+  {% if page.summary %}
+    <meta property="og:description" content="{{ page.summary }}" />
+    <meta name="twitter:description" content="{{ page.summary }}" />
+  {% endif %}
+
+  <meta property="og:site_name" content="kistanov.dev" />
+  <meta property="profile:first_name" content="Daniil" />
+  <meta property="profile:last_name" content="Kistanov" />
+  <meta property="profile:username" content="kistanovdev" />
+  <meta property="profile:gender" content="male" />
+</head>
+<body>
+<div class="page {{ page.class }}">
+
+{{ content }}
+
+<div class="preload"></div>
+
+</div>
+
+<script>
+  function updateFlashlight(e) {
+    var style = document.body.style;
+    style.backgroundPositionX = e.pageX - 250 + "px";
+    style.backgroundPositionY = e.pageY - 250 + "px";
+  }
+
+  document.querySelector(".dark_mode").onclick = function(e) {
+    var body = document.body;
+    body.classList.toggle("dark");
+    if (body.classList.contains("dark")) {
+      updateFlashlight(e);
+      ["mousemove", "touchstart", "touchmove", "touchend"].forEach(function(s) {
+        document.documentElement.addEventListener(s, updateFlashlight, false);
+      });
+    } else {
+      ["mousemove", "touchstart", "touchmove", "touchend"].forEach(function(s) {
+        document.documentElement.removeEventListener(s, updateFlashlight, false);
+      });
+    }
+  }
+</script>
