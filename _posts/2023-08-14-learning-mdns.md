@@ -3,6 +3,7 @@ layout: post
 title: "Learning about mDNS"
 category: blog
 summary: "An important protocol to know about for a better understanding of Networking"
+draft: true
 ---
 
 While learning more about Networking and Protocols, I pulled out Wireshark and started inspecting some packets and saw a load of packets marked as mDNS.
