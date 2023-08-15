@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 820 312">
+    <style>#text{display:none}</style>
+  <defs>
+    <symbol id="pattern">
+      <g transform="scale(0.1)">
+        <g fill="none" font-family="none" font-size="none" font-weight="none" stroke-miterlimit="10" stroke-width="none" style="mix-blend-mode:normal" text-anchor="none">
+<rect fill="none" height="400" stroke-width="1" width="400"/>
+<g fill="#000" id="symbol" stroke="#000" stroke-width="6.5572">
+<path d="m102.74 70.264c13.275-3.6536 27.28-2.05 40.879-1.5427 12.93 0.20292 24.438 8.8294 30.101 20.156 8.7077 16.928 8.0175 37.287 2.9634 55.21-10.311 32.395-37.936 57.808-40.697 92.862-2.0906 16.989 5.1354 34.344 19.303 44.147-12.097-0.60887-24.195-0.26393-36.272-0.30443-20.683 0.73076-41.042-18.532-38.099-39.783 2.2937-18.796 17.436-33.268 34.08-40.656 13.802-8.2814 31.705-11.793 41.184-25.798 4.8714-6.7185-2.0906-14.269-8.0175-17.233-13.315-6.4141-28.173-8.7889-41.367-15.487-15.02-6.82-26.894-21.901-26.712-38.85-0.56836-14.229 8.6265-28.823 22.652-32.72z"/>
+<path d="m223.94 86.036c9.0325-9.824 21.292-17.821 35.115-17.578 16.319 0.24354 35.338-3.4912 48.897 8.0582 15.893 12.463 14.777 37.287 3.6536 52.551-10.819 15.426-30.02 20.846-47.273 25.494-32.212 8.0175-63.471 19.323-94.384 31.238 7.8755-18.105 16.055-36.089 24.702-53.829 7.4289-16.644 17.07-32.395 29.289-45.934z"/>
+<path d="m190.84 207.01c22.733-7.2056 50.846 9.3369 52.469 33.917 1.9486 20.074-15.345 38.038-34.871 39.682-15.223 1.6847-29.574-8.3221-36.759-21.191-9.5196-18.775-0.08114-44.147 19.161-52.408z"/>
+</g>
+</g>
+      </g>
+    </symbol>
+  </defs>
+  <rect width="820" height="312" fill="white"/>
+
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(0 0) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(68 52) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(0 104) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(68 156) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(0 208) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(68 260) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(0 312) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(136 0) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(205 52) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(136 104) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(205 156) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(136 208) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(205 260) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(136 312) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(273 0) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(341 52) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(273 104) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(341 156) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(273 208) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(341 260) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(273 312) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(410 0) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(478 52) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(410 104) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(478 156) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(410 208) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(478 260) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(410 312) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(546 0) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(615 52) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(546 104) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(615 156) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(546 208) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(615 260) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(546 312) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(683 0) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(751 52) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(683 104) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(751 156) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(683 208) rotate(180.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(751 260) rotate(300.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(683 312) rotate(60.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(820 0) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(888 52) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(820 104) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(888 156) rotate(0.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(820 208) rotate(120.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(888 260) rotate(240.0) scale(2)"
+      />
+
+      <use
+        xlink:href="#pattern"
+        x="-20" y="-20"
+        transform="translate(820 312) rotate(0.0) scale(2)"
+      />
+</svg>

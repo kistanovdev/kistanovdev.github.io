@@ -251,19 +251,19 @@ sub {
     top: .5ex;
 }
 
-.about_photo {
+.about_logo {
     float: left;
-    width: 100px;
+    width: 175px;
     height: 160px;
-    margin-left: -150px;
-    margin-top: -10px;
-    background: url("/i/photo.png");
+    margin-left: -200px;
+    margin-top: -3px;
+    background: url("/i/logo.png");
     background-size: 200px;
 }
 
-.about_photo:hover {
+/*.about_logo:hover {
     background-position: 100%;
-}
+}*/
 
 .about_inner {
     font-size: 16px;
