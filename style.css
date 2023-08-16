@@ -35,7 +35,7 @@ pre, code {
 }
 
 body {
-    background-color: hsl(0, 0%, 99%); /* fallback */
+    background-color: hsl(0, 0%, 100%); /* fallback */
     color: #000;
     -webkit-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
     -moz-font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
@@ -253,17 +253,18 @@ sub {
 
 .about_logo {
     float: left;
-    width: 175px;
-    height: 160px;
-    margin-left: -215px;
-    margin-top: -3px;
+    width: 187px;
+    height: 193px;
+    margin-left: -220px;
+    margin-top: -13px;
     background: url("/i/logo.png");
     background-size: 200px;
+    transition: background-image 0.5s ease-in-out;
 }
 
-/*.about_logo:hover {
-    background-position: 100%;
-}*/
+.about_logo:hover {
+    background-image: url("/i/logo_color.png"); /* New image on hover */
+}
 
 .about_inner {
     font-size: 16px;
