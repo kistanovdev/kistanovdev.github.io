@@ -7,7 +7,7 @@ summary: "A nice way to verify that your migraions are good"
 
 Recently I learned a quick way to check if you migrations are up to date.
 
-At work, I used wrote something like this:
+At work, I wrote something like this:
 
 ```
 #!/bin/bash
@@ -25,7 +25,7 @@ else
 fi
 ```
 
-It can be simplifies with the following command 
+It can be simplified with the following command 
 
 ```
 python manage.py makemigrations --check --dry-run
