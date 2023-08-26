@@ -5,7 +5,7 @@ category: til
 summary: "A nice way to verify that your migraions are good"
 ---
 
-Recently I learned a quick way to check if you migrations are up to date.
+Recently I learned a quick way to check if your migrations are up to date.
 
 At work, I wrote something like this:
 
