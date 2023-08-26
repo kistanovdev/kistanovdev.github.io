@@ -14,6 +14,8 @@ title: TIL
 
 <div class="post">
 
+    "He who learns but does not think, is lost! He who thinks but does not learn is in great danger.” — Confucius
+
     {% assign published_posts = site.posts | where_exp: "post", "post.draft != true" %}
     {% assign posts_by_year = published_posts | group_by_exp: "post", "post.date | date: '%Y'"  %}
     {% for year in posts_by_year %}
