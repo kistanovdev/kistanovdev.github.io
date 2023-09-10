@@ -6,7 +6,8 @@ summary: "How to generate large ssh keys"
 ---
 
 The usual size of an RSA key varies between 1024 bits and 4096.
-Today I found out that you can have arbitrary length RSA key.
+Today I found out that you can generate keys with arbitrary length, larger
+than the 4096-bit convention size.
 The problem, of course, is that you may spend an eternity 
 trying to generate it.
 
