@@ -36,6 +36,7 @@ They're not fast, but when it comes to programming in python, you're not looking
 3. Compute `λ(n)`, where `λ` is a [Carmichael function](https://en.wikipedia.org/wiki/Carmichael%27s_totient_function). 
 4. choose number `e`. For our case, e will be 65537, which is the most commonly chosen value.
 5. Determine `d`, where `de ≡ 1 (mod λ(n))`.
+6. Use the generated numbers to encode a useful `privatekey.pem` file.
 
 ## Functions we'll need
 
@@ -75,12 +76,9 @@ def mod_inv(e, mod):
             v1, v2, v3, u1, u2, u3 = (u1 - q * v1), (u2 - q * v2), (u3 - q * v3), v1, v2, v3
         return u1 % mod
 ```
-sieve check to speed up the process
+[sieve](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) check to speed up the process
 ```
-
-
 def quick_sieve_check(candidate):
-    """
     first_hundred_primes = {***}
     for prime in first_hundred_primes:
         if candidate % prime == 0:
@@ -124,3 +122,60 @@ def miller_rabin_primality_test(candidate):
 
     return True
 ```
+
+## generate p and q
+
+Generate `p` is staight-forward. Keep trying until you pass the
+primality test we outlined above.
+```
+def generate_prime_p():
+    candidate = 1
+    probably_prime = False
+    while not probably_prime:
+        candidate = generate_random_number()
+        if gcd(candidate - 1, 65537) != 1:
+            continue
+
+        probably_prime = miller_rabin_primality_test(candidate)
+    return candidate
+```
+Generate q is slightly different. Our initial filter function has extra steps.
+Besides doing the GCD step, we unsure that our candidate is larger than the 
+min distance number.
+
+```
+MIN_DISTANCE = 1 << (1024 // 2 - 100)
+```
+
+```
+def generate_prime_q(p):
+    def q_filter(candidate):
+        return gcd(candidate - 1, 65537) == 1 and abs(candidate - p) > MIN_DISTANCE
+
+    candidate = 1
+    probably_prime = False
+    while not probably_prime:
+        candidate = generate_random_number()
+        if not q_filter(candidate):
+            continue
+
+        probably_prime = miller_rabin_primality_test(candidate)
+    return candidate
+```
+
+## main()
+
+This is how our main function will look like
+```
+if __name__ == "__main__":
+    e = 65537
+    p = generate_prime_p()
+    q = generate_prime_q(p)
+
+    n = p * q
+    lcm = lcm(p, q)
+    d = mod_inv(65537, lcm)
+    
+```
+
+## Encoding the key to `.pem` file
