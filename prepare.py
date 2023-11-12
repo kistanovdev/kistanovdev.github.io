@@ -1,10 +1,12 @@
 import os
 from datetime import datetime
 
+
 def ensure_dir(directory):
     """Create the directory if it doesn't exist."""
     if not os.path.exists(directory):
         os.makedirs(directory)
+
 
 def ordinal(n):
     """Return ordinal number string from integer, e.g. 1 -> '1st'."""
@@ -12,6 +14,7 @@ def ordinal(n):
     if 11 <= (n % 100) <= 13:
         suffix = 'th'
     return str(n) + suffix
+
 
 def create_diary_entry():
     """Create a diary entry for today."""
@@ -44,6 +47,7 @@ def create_diary_entry():
             f.write(f'Today is {month} {day_with_suffix} {year} {time}')
 
     print(day_file)
+
 
 if __name__ == '__main__':
     create_diary_entry()
