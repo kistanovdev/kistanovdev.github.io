@@ -2,12 +2,12 @@
 layout: post
 title: "Generating RSA keys in pure python"
 category: blog
-summary: "Inspired by Andrei Karpathy's blog about generating RSA keys in python"
-draft: true
+summary: "Inspired by Andrei Karpathy's blog about generating bitcoin transaction in python"
+draft: false
 ---
 
 At the end of the article, we will be able to run our python code and generate private
-RSA keys similar to this `openssl genrsa` command 
+RSA keys similar to this `openssl genrsa` command.
 ```
 Generating RSA private key, 2048 bit long modulus
 e is 65537 (0x10001)
@@ -179,3 +179,12 @@ if __name__ == "__main__":
 ```
 
 ## Encoding the key to `.pem` file
+
+During the writing of this article I have been stuck trying
+to encode the actual keys to the pem files without using any external 
+libraries. I will publish the update as soon as I have time to figure it out :)
+
+For now, you may use most basic python crypto libraries and take the numbers we have generated and
+turn them into a real key.
+
+All of the code written so far can be found in [this github gist](https://gist.github.com/kistanovdev/e69221661032a2c48201c6dabcf7faeb).
