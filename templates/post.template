@@ -1,0 +1,6 @@
+---
+layout: $type
+title: "$title"
+category: til
+summary: "$summary"
+---
