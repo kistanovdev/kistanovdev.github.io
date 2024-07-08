@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CS Courses bookmarks"
+title: "CS Courses Bookmarks"
 category: bookmark
 summary: "CS Courses Bookmark"
 draft: False
