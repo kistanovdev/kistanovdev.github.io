@@ -29,3 +29,8 @@ the best is I just stumble onto them again and again.
 
 ## [AWS Flashcards](https://cloudbite.attejuvonen.fi/?deck=aws&card=-1300882318)
 Honestly, to hell with AWS. Still, this is kinda fun to learn.
+
+## [Structuring a Python project](https://pycon.switowski.com/03-project-structure-2-parts/structure/)
+When I work with python, it's kinda hard to structure the project properly.
+It isn't like Java, where you have a rigid system.
+This guide helped me learn better ways.

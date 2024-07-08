@@ -38,3 +38,6 @@ There's also a [v1.3 version](https://tls13.xargs.org/).
 ## [Always Be Quitting](https://jmmv.dev/2021/04/always-be-quitting.html)
 A guide for being a good engineer.
 
+
+## [How macOS boot system works](https://eclecticlight.co/2020/09/16/boot-volume-layout/)
+A good guide about different versions of how macOS boots.
