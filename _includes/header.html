@@ -1,0 +1,20 @@
+<ul class=menu>
+<!--    todo: don't forget about item inside-->
+    {% if page.category == "blog" %}
+        <li><a class="menu__item menu__item_selected" href="/">Blog</a></li>
+    {% else %}
+        <li><a class="menu__item" href="/">Blog</a></li>
+    {% endif %}
+
+    {% if page.category == "til" %}
+        <li><a class="menu__item menu__item_selected" href="/til/">TIL</a></li>
+    {% else %}
+        <li><a class="menu__item" href="/til/">TIL</a></li>
+    {% endif %}
+
+    {% if page.category == "bookmark" %}
+        <li><a class="menu__item menu__item_selected" href="/bookmarks/">Bookmarks</a></li>
+    {% else %}
+        <li><a class="menu__item" href="/bookmarks/">Bookmarks</a></li>
+    {% endif %}
+</ul>
