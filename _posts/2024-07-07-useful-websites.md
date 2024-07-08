@@ -26,3 +26,6 @@ come back to this at some point.
 ## [A knowledgebase](https://github.com/trimstray/the-book-of-secret-knowledge)
 Honestly, stuff like this may overwhelm you. The way I learn concepts 
 the best is I just stumble onto them again and again. 
+
+## [AWS Flashcards](https://cloudbite.attejuvonen.fi/?deck=aws&card=-1300882318)
+Honestly, to hell with AWS. Still, this is kinda fun to learn.
