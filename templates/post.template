@@ -1,6 +1,7 @@
 ---
 layout: $type
 title: "$title"
-category: til
+category: $category
 summary: "$summary"
+draft: false
 ---
