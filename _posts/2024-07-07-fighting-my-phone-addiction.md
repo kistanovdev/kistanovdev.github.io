@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fighting my telephone addiction"
+title: "On your phone much?"
 category: blog
 summary: "Things that helped me reduce my phone usage"
 draft: false
@@ -19,7 +19,8 @@ in case of an emergency.
 ### Turn off all notifications
 Left only essential notifications. Looking at red dots
 and notification dumps is a toll on my attention span.
-We don't really need every single app sending notifications.
+We shouldn't allow every app on our phone to bug us
+when they want.
 
 ### Mute conversations
 I don't need to get pinged about every conversation
