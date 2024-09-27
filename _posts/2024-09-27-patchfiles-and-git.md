@@ -10,7 +10,7 @@ draft: false
 In git, I prefer the following workflow:
 
 - keep history as linear as possible because nobody cares or wants to see your "fix typo" git comment
-- always rebase on top of existing changes and squash if you cannot 
+- always rebase on top of existing changes and squash if you cannot clean up the history
 
 
 However, I had a fortune of working on a very large project of upgrading java infrastucture. One
