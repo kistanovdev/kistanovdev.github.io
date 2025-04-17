@@ -3,7 +3,7 @@ layout: post
 title: "Just use a single monitor"
 category: blog
 summary: "Just use a single monitor"
-draft: true
+draft: false
 ---
 
 
