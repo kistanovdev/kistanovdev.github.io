@@ -13,3 +13,4 @@ I learn Chinese characters by Anki method + [Learning Chinese Characters](/i/Lea
 2. 贵 VS 员
 3. 找 VS 我
 4. 书 VS 年
+4. 东 VS 乐
